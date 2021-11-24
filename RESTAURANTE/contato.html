@@ -5,54 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTATO</title>
+    <link rel="stylesheet" href="assets/img/css/style.css">
+
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
-            <a href="index.html" target="_blank"> HOMDE </a>
+            <a href="index.html" target="_blank"> HOME </a>
         </li>
     
         <li>
             <a href="contato.html" target="_blank"> CONTATO</a>
         </li>
-
+    
         <li>
             <a href="funcionamento.html" target= "_blank"> FUNCIONAMENTO</a>
         </li>
 
     </ul>
 
-    <h1>ENTRE EM CONTATO</h1>
+    <h1 class="center">ENTRE EM CONTATO</h1>
 
-    <P>ENVIE SUA MENSAGEM</P>
+    <div class="container">
 
-    <form> 
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="assusto">Assunto:</label><br>
-        <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
-        <br>
-        <br>
-
-        <button>Enviar</button>
-    </form>
-
-    <h2>COMO CHEGAR</h2>
-    <p>Rua Thomaz Gonzaga, 75 - Liberade - SP</p>
-    <p>  (11) 3277-1557 </p>
-
+        <div>
+            <form> 
+                <h2 class="bs">ENVIE SUA MENSAGEM</h2>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome">
+                <br>
+                <br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email">
+                <br>
+                <br>
+                <label for="assusto">Assunto:</label><br>
+                <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
+                <br>
+                <br>
+        
+                <button>Enviar</button>
+            </form>
+        </div>
+        <div class="ml-50">
+            <h3 class="center">COMO CHEGAR</h3>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.302624673541!2d-46.63790898502234!3d-23.557572284684802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59a8a321e087%3A0xe9e5ac68ff0d36ae!2sRestaurante%20Porque%20Sim!5e0!3m2!1spt-BR!2sbr!4v1637688566972!5m2!1spt-BR!2sbr"
      width="600" 
      height="450" 
      style="border:0;" 
      allowfullscreen="" 
      loading="lazy"></iframe>
+     <p class="alinhar">Rua Thomaz Gonzaga, 75 - Liberade - SP</p>
+    <p class="alinhar">(11) 3277-1557 </p>
+         </div>
+</div>
+<hr>
+<footer>
+    <div class="container">
+        <a href="https://www.facebook.com/restaurantepqsim/" target="_blank">
+        <img class="tm-social" src="assets/img/facebook.png" alt="Logo do facebook">
+        </a>
+        <a href="https://www.instagram.com/restauranteporquesim/" target="_blank">
+        <img class="tm-social" src="assets/img/instagram.png" alt="Logo do instagram"> 
+        </a>
+
+    </div>
+    <p class="center"> 
+        Todos os direitos reservados: RESTAURANTE PORQUE SIM &copy;
+    </p>
+</footer>
 
 </body>
 </html>
